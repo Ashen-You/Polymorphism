@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        new Printer().printing();
+        new ColorPrinter().printing("Red");
+        new BlackPrinter().printing();
     }
 }
